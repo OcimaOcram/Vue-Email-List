@@ -13,16 +13,8 @@
     
             <div id="nostraEmail">
                <ul>
-                   <li>{{emailUser1}}</li>
-                   <li>{{emailUser2}}</li>
-                   <li>{{emailUser3}}</li>
-                   <li>{{emailUser4}}</li>
-                   <li>{{emailUser5}}</li>
-                   <li>{{emailUser6}}</li>
-                   <li>{{emailUser7}}</li>
-                   <li>{{emailUser8}}</li>
-                   <li>{{emailUser9}}</li>
-                   <li>{{emailUser10}}</li>
+                   <li v-if="emailUser.length === 10" v-for="email in emailUser">{{email}}</li>
+                   
                </ul>
             </div>
         </div>
