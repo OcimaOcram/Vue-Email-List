@@ -1,9 +1,7 @@
 const app = new Vue ({
     el: "#app",
     data: {
-        emailUser: [
-            
-        ] ,
+        emailUser: [] ,
         
     },
 mounted() {
